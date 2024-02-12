@@ -3,7 +3,7 @@
  Here are all the things I learned about React and some practices applying what I've learned.
 
 <p align='center'>
-  <img src="https://assets.stickpng.com/images/62a74dfe223343fbc2207d02.png" width="380px">
+  <img src="https://www.jovenesprogramadores.cl/wp-content/uploads/2020/07/react.png" width="190px">
 </p>
 
 ### 🔗 Connect with me
