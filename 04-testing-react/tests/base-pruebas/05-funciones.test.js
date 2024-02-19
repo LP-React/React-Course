@@ -18,8 +18,10 @@ describe('Prueba en 05-funciones', () => {
 
         const usuarioActivo = getUsuarioActivo(name);
 
-        expect(usuarioActivo).toEqual({ uid: 'ABC567', 
-                                        username: name })
+        expect(usuarioActivo).toEqual({
+            uid: 'ABC567',
+            username: name
+        })
 
     })
 })

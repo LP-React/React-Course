@@ -1,7 +1,7 @@
-import {getSaludo} from '../../src/base-pruebas/02-template-string'
+import { getSaludo } from '../../src/base-pruebas/02-template-string'
 
 describe('Prueba en 02-template-string', () => {
-    test('getSaludo debe retornar "Hola Laysson"',() => {
+    test('getSaludo debe retornar "Hola Laysson"', () => {
         const name = 'Laysson';
         const message = getSaludo(name);
 

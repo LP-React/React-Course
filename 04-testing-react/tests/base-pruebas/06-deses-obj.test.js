@@ -8,13 +8,14 @@ describe('Prueba 06-deses-obj', () => {
 
         console.log(usContextTest);
 
-        expect(usContextTest).toEqual({ nombreClave: clave, 
-                                        nombre: nombre, 
-                                        anios: edad, 
-                                        latlng: {
-                                                    lat: 14.1232,
-                                                    lng: -12.3232 
-                                                }
-                                        })
+        expect(usContextTest).toEqual({
+            nombreClave: clave,
+            nombre: nombre,
+            anios: edad,
+            latlng: {
+                lat: 14.1232,
+                lng: -12.3232
+            }
+        })
     })
 })
