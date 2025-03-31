@@ -17,7 +17,7 @@ export const Quote = ({ data, counter }) => {
         <>
             <blockquote className='blockquote text-end' style={{ display: 'flex' }}>
                 <p className='mb-1' ref={pRef}>{data.game_indices[counter].version.name}</p>
-                <footer className='blockquote-footer'>Fernando Herrera</footer>
+                <footer className='blockquote-footer'>{data.name}</footer>
             </blockquote>
 
             <code>{JSON.stringify(boxSize)}</code>
