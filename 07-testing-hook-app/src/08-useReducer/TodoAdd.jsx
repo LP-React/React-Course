@@ -24,12 +24,9 @@ export const TodoAdd = ({ onNewTodo }) => {
     }
 
     return (
-
-
         <form onSubmit={onFormSubmit}>
             <input type="text" placeholder='¿Que hay que hacer?' name='description' value={description} className='form-control' onChange={onInputChange} />
             <button type='submit' className='btn btn-primary mt-1'>Agregar</button>
         </form>
-
     )
 }

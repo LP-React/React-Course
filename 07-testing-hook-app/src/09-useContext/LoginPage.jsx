@@ -5,22 +5,19 @@ export const LoginPage = () => {
 
     const { user, setUser } = useContext(UserContext)
 
-    const login = () => {
-        setUser({
-            name: 'Laysson',
-            lastname: 'Polo'
-        })
-    }
-
     return (
         <>
             <h1>LoginPage</h1>
-            <button className='btn btn-primary' onClick={login}>Set user</button>
+            <button className='btn btn-primary' onClick={() => setUser({
+                name: 'Laysson',
+                lastname: 'Polo'
+            })} aria-label='
+            button'>Set user</button>
             <hr />
 
-            <p>
-                {JSON.stringify(user)}
-            </p>
+            <pre aria-label='pre'>
+                {JSON.stringify(user, null, 3)}
+            </pre>
         </>
     )
 }
