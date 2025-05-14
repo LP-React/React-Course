@@ -1,14 +1,20 @@
+import { useContext, useEffect } from "react";
 import { useNavigate } from "react-router-dom"
+import { AuthContext } from "../context";
 
 export const LoginPage = () => {
 
+    const { login, user } = useContext(AuthContext)
     const navigate = useNavigate();
 
     const onLogin = () => {
-        navigate("/", {
-            replace: true
-        })
+
+        login('Laysson')
+
     }
+
+
+
 
     return (
         <div className="container mt-5">
