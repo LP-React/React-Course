@@ -61,9 +61,13 @@ Your project should now be running locally. Open your browser and go to the disp
     - [x] Uploaded
 7. ### Testing-Hooks-App - Unit and Integration Testing
     - [x] Uploaded
-8. ### Manga-App - SPA with React Router DOM
+8. ### Manga-App - SPA with React Router DOM and Protected Routes
     - [x] Uploaded
-9. ### Protected Routes - React Router DOM
+9.  ### Testing-Manga-App - mocks, jest.fn(), <MemoryRouter>...
+    - [x] Uploaded
+10. ### Journal-App - A bit of MaterialUI and layouts...
+    - [x] Uploaded
+11. ### Redux - Concepts of Redux, React Redux and RTK + Query
     - [ ] Uploaded
 
 
