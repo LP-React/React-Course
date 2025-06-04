@@ -68,6 +68,8 @@ Your project should now be running locally. Open your browser and go to the disp
 10. ### Journal-App - A bit of MaterialUI and layouts...
     - [x] Uploaded
 11. ### Redux - Concepts of Redux, React Redux and RTK + Query
+    - [X] Uploaded
+12. ### Journal-App - Redux Pattern + Firebase Authenticator + Google OAuth
     - [ ] Uploaded
 
 
