@@ -1,5 +1,0 @@
-export * from './DdPage'
-export * from './EvPage'
-export * from './OpPage'
-export * from './SearchPage'
-export * from './CharacterPage'
